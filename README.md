@@ -1,4 +1,4 @@
-Git Repository for developing introductory learnr lessons.
+Git repository for a docker image build with `learnr` lessons for different `tidyverse` packages. Developed for general education purposes (statistics and `R`) by P. Lombardo.
 
 So far, this includes:
 
@@ -7,4 +7,4 @@ So far, this includes:
     * one for identifying untidy data sets `tidy-data`, and
     * another for fixing them `make-tidy`.
 
-For those hosting these lessons on a shiny server, please note that the files must be *locally rendered* to create the .HTML-file before they will work.
+Keeping in mind that the `learnr` lesson files must be *locally rendered* to create the .HTML-file before they will work, the docker build runs a script to create these files.
